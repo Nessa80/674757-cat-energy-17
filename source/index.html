@@ -6,48 +6,51 @@
   </head>
   <body>
   <header class="page-header">
-    <a class="page-header__title--logo"><b>cat</b> energy</p>
+    <a class="logo" href="#">
+        <img class="logo__image" src="http://placehold.it/60x60" alt="Наш логотип">
+        <p class="logo__title"><b>cat</b> energy</p>
+    </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">Открыть меню</button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item">
+        <ul class="main-nav__menu menu">
+          <li class="menu__menu-item">
             <a href="#">Главная</a>
           </li>
-          <li class="site-list__item">
+          <li class="menu__menu-item">
             <a href="catalog.html">Каталог продукции</a>
           </li>
-          <li class="site-list__item">
-            <a href="form.html">Подобор программы</a>
+          <li class="menu__menu-item">
+            <a href="form.html">Подбор программы</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <main class="page-main">
-    <section class="catalog">
-      <header class="catalog__header">
-        <h1 class="catalog__site-name">Функциональное питание для котов</h1>
-        <h3 class="catalog__slogan">Занялся собой? Займись котом!</h3>
-        <img class="catalog__product-image" src="http://placehold.it/300x300" alt="Наша продукция">
-        <button class="catalog__pick-programm" type="button">Подобрать программу</button>
-      </header>
-      <div class="catalog__item">
-        <img class="catalog__picture" src="http://placehold.it/60x55">
-        <h3 class="catalog__name">Похудение</h3>
-        <p class="catalog__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energe Smim поможет вашему питомцу сбросить лишний вес!</p>
+    <section class="intro">
+      <h1 class="intro__site-name">Функциональное питание для котов</h1>
+      <h3 class="intro__slogan">Занялся собой? Займись котом!</h3>
+      <img class="intro__product-image" src="http://placehold.it/300x300" alt="Наша продукция">
+      <button class="intro__pick-programm" type="button">Подобрать программу</button>
+    </section>
+    <section class="program">
+      <div class="program__promo promo-example">
+        <img class="promo-example__picture" src="http://placehold.it/60x55" alt="Промо-кртинка">
+        <h3 class="promo-example__name">Похудение</h3>
+        <p class="promo-example__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energe Smim поможет вашему питомцу сбросить лишний вес!</p>
         <hr>
-        <button class="catalog__learn-more">Католог Slim
-          <img class="catalog__learn-more" src="http://placehold.it/25x13" alt="Стрелочка">
+        <button class="promo-example__learn-more">Католог Slim
+          <img class="promo-example__learn-more" src="http://placehold.it/25x13" alt="Стрелочка">
         </button>
       </div>
-      <div class="catalog__item">
-        <img class="catalog__picture" src="http://placehold.it/60x55">
-        <h3 class="catalog__name">Набор массы</h3>
-        <p class="catalog__description">Заработать авторитет среди двоговых котов и даже собак? Серия Cat Energy Pro поможет вышему коту нарастить необходимые мышцы!</p>
+      <div class="program__promo promo-example">
+        <img class="promo-example__picture" src="http://placehold.it/60x55" alt="Промо-кртинка">
+        <h3 class="promo-example__name">Набор массы</h3>
+        <p class="promo-example__description">Заработать авторитет среди двоговых котов и даже собак? Серия Cat Energy Pro поможет вышему коту нарастить необходимые мышцы!</p>
         <hr>
-        <button class="catalog__learn-more">Католог Pro
-          <img class="catalog__learn-more" src="http://placehold.it/25x13" alt="Стрелочка">
+        <button class="promo-example__learn-more">Католог Pro
+          <img class="promo-example__learn-more" src="http://placehold.it/25x13" alt="Стрелочка">
         </button>
       </div>
     </section>
@@ -75,22 +78,22 @@
     <hr>
     <div class="page-footer__social social">
       <ul class="social__list">
-          <li class="sosial__item">
-            <a class="social__link social__link--VK" href="#">Мы в Контакте</a>
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#">Мы в Контакте</a>
           </li>
-          <li class="sosial__item">
-            <a class="social__link social__link--Instagram" href="#">Мы в Инстаграмме</a>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="#">Мы в Инстаграмме</a>
           </li>
-          <li class="sosial__item">
-            <a class="social__link social__link--VK" href="#">Мы в Фейсбуке</a>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
           </li>
         </ul>
       </div>
       <hr>
-      <div class="page-footer__copyright copyright">
-        <a class="copyright__link--label">HTML Academy
-        </a>
-      </div>
+      <a class="copyright">
+        <p class="copyright__text">HTML Academy</p>
+        <img class="copyright__image" src="http://placehold.it/60x60" alt="Герб HTML Academy">
+      </a>
     </footer>
   </body>
 </html>
