@@ -27,6 +27,74 @@
       </div>
     </nav>
   </header>
+  <main class="page-main">
+    <section class="form-spase">
+      <h1 class="form-spase__headline">Подбор программы</h1>
+      <p class="form-spase__invitation">Заполните анкету и мы подберем программу питания для вашего кота</p>
+      <form class="form-spase__data-box data-box" action="https://echo.htmlacademy.ru" method="post">
+        <div class="data-box__data-cat">
+          <label>имя:<sup>*</sup>
+            <input type="text" name="cat-name" placeholder="барсик">
+          </label>
+          <label>вес (кг):<sup>*</sup>
+            <input type="text" name="cat-name" placeholder="7">
+          </label>
+          <label>возраст (лет):
+            <input type="text" name="cat-name" placeholder="7">
+          </label>
+        </div>  
+        <div class="data-box__goal">
+          <label>
+            <input type="radio" name="your-goal" value="get-slim" checked>
+        похудение
+          </label>
+          <label>
+            <input type="radio" name="your-goal" value="get-muscul">
+        набор массы
+          </label>
+          <label>
+            <input type="radio" name="your-goal" value="advice">
+        не знаю (нужен ваш совет)
+          </label>
+        </div>
+        <h2 class="data-box__owner">контактные данные (владельца кота)</h2>
+        <div class="data-box__data-owner">
+          <label>e-mail:<sup>*</sup>
+            <input type="text" name="cat-name" placeholder="kuklachev@gmail.com">
+          </label>
+          <label>телефон:<sup>*</sup>
+            <input type="text" name="cat-name" placeholder="8 (960) 900-60-90">
+          </label>
+        </div>
+        <h2 class="data-box__comments">комментарий</h2>
+        <div class="data-box__cat-info">
+          <textarea name="comment" rows="5" cols="40" placeholder="расскажите обо всех повадках кота"></textarea>
+        </div>
+        <h2 class="data-box__adds">дополнительно</h2>
+        <div class="data-box__additionals">
+          <label for="sugar">
+            <input type="checkbox" name="sugar-replasenemt" id="sugar" checked>сахарозаменитель
+          </label>
+          <label for="water">
+            <input type="checkbox" name="drink-water" id="water">питьевая вода
+          </label>
+          <label for="moloko">
+            <input type="checkbox" name="milk" id="moloko">молоко
+          </label>
+          <label for="vits">
+            <input type="checkbox" name="vitamins" id="vits">витамины
+          </label>
+        </div>
+        <input type="submit" value="Отправить заявку">
+        <p class="data-box__fill-in"><sup>*</sup> - Обязательные поля</p>
+      </form>
+    </section>
+    <section class="dillers-wanted">
+      <h3 class="dillers-wanted__invitation">приглашаем к сотрудничеству дилеров!</h3>
+      <p class="dillers-wanted__addres">ул.Большая Конюшенная д.19/8 санкт-Петербург</p>
+      <iframe class="dillers-wanted__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.7722229597716!2d30.3225948145378!3d59.93846004859224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1564482038983!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+  </main>
   <footer class="page-footer">
     <div class="page-footer__contacts contacts">
       <p class="contacts__title"><b>cat</b> energy</p>
