@@ -6,6 +6,24 @@
   margin-top: 20px;
 }
 
+@media (min-width: @tablet-width) {
+  .promo-example {
+    width: 708px;
+    height: 372px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .promo-example {
+    width: 570px;
+    height: 372px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
 .promo-example__picture {
   position: absolute;
   padding-left: 15px;
@@ -16,8 +34,24 @@
   font-family: "Oswald Regular", sans-serif;
   font-size: 24px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   text-transform: uppercase;
+}
+
+@media (min-width: @tablet-width) {
+  .promo-example__name {
+    font-size: 36px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 52px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .promo-example__name {
+    text-align: center;
+    padding-top: 30px;
+  }
 }
 
 .promo-example__description {
@@ -27,6 +61,27 @@
   padding-right: 20px;
   line-height: 20px;
   padding-bottom: 10px;
+}
+
+@media (min-width: @tablet-width) {
+  .promo-example__description {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 16px;
+    padding-left: 52px;
+    line-height: 20px;
+    padding-right: 275px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .promo-example__description {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 16px;
+    padding-left: 52px;
+    padding-right: 50px;
+    line-height: 20px;
+    padding-top: 20px;
+  }
 }
 
 .promo-example__learn-more {
@@ -40,7 +95,34 @@
   text-align: start;
 }
 
+@media (min-width: @tablet-width) {
+  .promo-example__learn-more {
+    font-size: 20px;
+    margin-left: 48px;
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .promo-example__learn-more {
+    font-size: 20px;
+    margin-left: 48px;
+  }
+}
+
 .promo-example hr {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+@media (min-width: @tablet-width) {
+  .promo-example hr {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .promo-example hr {
+    visibility: hidden;
+  }
 }

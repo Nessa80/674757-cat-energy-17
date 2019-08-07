@@ -9,6 +9,16 @@
   background-repeat: no-repeat;
   width: 320px;
   text-align: center;
+  height: 785px;
+  
+}
+
+@media (min-width: @tablet-width) {
+  .intro {
+    background-image: none;
+    width: 768px;
+    text-align: left;
+  }
 }
 
 .intro__site-name {
@@ -20,10 +30,35 @@
   padding-top: 25px;
 }
 
+@media (min-width: @tablet-width) {
+  .intro__site-name {
+    font-size: 60px;
+    color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .intro__site-name {
+    padding-top: 120px;
+  }
+}
+
 .intro__slogan {
   .text;
   font-size: 14px;
   padding-bottom: 15px;
+}
+
+@media (min-width: @tablet-width) {
+  .intro__slogan {
+    color: black;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-top: 15px;
+  }
 }
 
 .intro__pick-programm {
@@ -32,4 +67,20 @@
   width: 280px;
   height: 40px;
   border: none;
+}
+
+@media (min-width: @tablet-width) {
+  .intro__pick-programm {
+    width: 246px;
+    height: 54px;
+    margin-left: 120px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: @tablet-width) {
+  .intro__our-product {
+    position: absolute;
+    visibility: hidden;
+  }
 }

@@ -3,3 +3,31 @@
   text-align: center;
   width: 320px;
 }
+
+@media (min-width: @tablet-width) {
+  .page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: @desktop-width){
+  .page-footer {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-footer hr {
+    visibility: hidden;
+  }
+}
