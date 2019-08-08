@@ -7,15 +7,12 @@
 .intro {
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
-  width: 320px;
   text-align: center;
-  height: 785px;
 }
 
 @media (min-width: @tablet-width) {
   .intro {
     background-image: none;
-    width: 768px;
     text-align: left;
   }
 }
@@ -79,7 +76,8 @@
 
 @media (min-width: @tablet-width) {
   .intro__our-product {
-    position: absolute;
-    visibility: hidden;
+    display: none;
+
+
   }
 }
