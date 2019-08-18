@@ -1,5 +1,6 @@
 .how-it-works {
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .how-it-works__headline {
@@ -17,6 +18,7 @@
 
 .how-it-works__list {
   list-style: none;
+  padding-left: 0;
 }
 
 @media (min-width: @tablet-width) {
@@ -37,6 +39,44 @@
 
 .how-it-works__item {
   font-size: 14px;
+  position: relative;
+  padding-left: 80px;
+  padding-bottom: 10px;
+
+}
+
+.how-it-works__item::before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-color: #68b738;
+  left: 0;
+  top: -10%;
+}
+
+.how-it-works__item--healthy::before{
+  background-image: url(../../img/advantage-leaf@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.how-it-works__item--easy::before{
+  background-image: url(../../img/advantage-powder@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.how-it-works__item--replacement::before{
+  background-image: url(../../img/advantage-dining@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.how-it-works__item--get-better::before{
+  background-image: url(../../img/advantage-clock@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media (min-width: @tablet-width) {
@@ -45,7 +85,6 @@
     height: 235px;
     font-size: 16px;
     line-height: 25px;
-    padding-right: 100px;
   }
 }
 
@@ -59,3 +98,12 @@
     padding-left: 30px;
   }
 }
+
+.how-it-works__icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: aqua;
+}
+
+

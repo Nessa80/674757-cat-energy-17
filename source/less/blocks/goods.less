@@ -1,0 +1,97 @@
+@media (min-width: @tablet-width) {
+  .goods {
+    border: 1px solid #e6e6e6;
+    padding-left: 38px;
+    padding-right: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .goods {
+    width: 895px;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    padding-left: 38px;
+    padding-right: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.goods__naming {
+  font-family: "Oswald Regular", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media (min-width: @tablet-width) {
+  .goods__naming {
+    font-size: 20px;
+  }
+}
+
+.goods__data {
+  width: 280px;
+  font-size: 14px;
+  margin-bottom: 10px;
+} 
+
+@media (min-width: @tablet-width) {
+  .goods__data {
+    margin-bottom: 0;
+    margin-top: 21px;
+    font-size: 16px;
+    width: 250px;
+  }
+}
+
+.goods__size {
+  text-align: left;
+}
+
+@media (min-width: @tablet-width) {
+  .goods__size {
+    text-align: right;
+  } 
+}
+
+.goods__price {
+  text-align: right;
+}
+
+@media (min-width: @tablet-width) {
+  .goods__price {
+    width: 95px;
+  } 
+}
+
+.goods__order {
+  width: 280px;
+  height: 40px;
+  background-color: #68b738;
+  text-align: center;
+  font-family: "Oswald Regular", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 10px;
+}
+
+@media (min-width: @tablet-width) {
+  .goods__order {
+    width: 632px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .goods__order {
+    width: 245px;
+  }
+}

@@ -11,8 +11,8 @@
     <a class="logo" href="#">
         <img class="logo__image" src="img/logo-mobile.svg" width="191px" height="38px" alt="Наш логотип">
     </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <nav class="main-nav main-nav--opened">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__menu menu">
           <li class="menu__menu-item">
@@ -29,23 +29,25 @@
     </nav>
   </header>
   <main class="page-main">
+    <div class="page-main__wrapper-1">
     <section class="intro">
       <h1 class="intro__site-name">Функциональное питание для котов</h1>
       <h3 class="intro__slogan">Занялся собой? Займись котом!</h3>
-      <img class="intro__our-product" src="img/index-can-mobile@1x.png" wigth="280px" height="271px" alt="Наша продукция">
+      <img class="intro__our-product" src="img/index-can-mobile@1x.png" width="280px" height="271px" alt="Наша продукция">
       <button class="intro__pick-programm" type="button">Подобрать программу</button>
     </section>
+    </div>
     <section class="program">
       <div class="program__promo promo-example">
-<!--        <img class="promo-example__picture" src="img/icon-cat-slim.svg" width="35px" height="67px" alt="Промо-кртинка">-->
-        <h3 class="promo-example__name">Похудение</h3>
+        <img class="promo-example__picture promo-example__picture--slim" src="img/icon-cat-slim.svg" alt="Промо-кртинка">
+        <h3 class="promo-example__name promo-example__name--slim">Похудение</h3>
         <p class="promo-example__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес!</p>
         <hr>
         <button class="promo-example__learn-more">Каталог Slim</button>
       </div>
       <div class="program__promo promo-example">
-<!--        <img class="promo-example__picture" src="img/icon-cat-pro.svg" width="80px" height="30px" alt="Промо-кртинка">-->
-        <h3 class="promo-example__name">Набор массы</h3>
+        <img class="promo-example__picture promo-example__picture--pro" src="img/icon-cat-pro.svg" alt="Промо-кртинка">
+        <h3 class="promo-example__name promo-example__name--pro">Набор массы</h3>
         <p class="promo-example__description">Заработать авторитет среди двоговых котов и даже собак? Серия Cat Energy Pro поможет вышему коту нарастить необходимые мышцы!</p>
         <hr>
         <button class="promo-example__learn-more">Каталог Pro</button>
@@ -92,7 +94,7 @@
     <section class="dillers-wanted">
       <h3 class="dillers-wanted__invitation">приглашаем к сотрудничеству дилеров!</h3>
       <p class="dillers-wanted__addres">ул.Большая Конюшенная д.19/8 санкт-Петербург</p>
-      <iframe class="dillers-wanted__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.7722229597716!2d30.3225948145378!3d59.93846004859224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1564482038983!5m2!1sru!2sru" width=100% height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe class="dillers-wanted__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.7722229597716!2d30.3225948145378!3d59.93846004859224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1564482038983!5m2!1sru!2sru" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
   </main>
   <footer class="page-footer">

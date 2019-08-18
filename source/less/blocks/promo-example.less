@@ -2,16 +2,25 @@
   background-color: #f2f2f2;
   width: 280px;
   height: 267px;
-  margin-left: 20px;
   margin-top: 20px;
+  position: relative;
+}
+
+.promo-example::before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #68b738;
+  left: 30px;
+  top: 20px;
+  position: absolute;
 }
 
 @media (min-width: @tablet-width) {
   .promo-example {
     width: 708px;
     height: 372px;
-    margin-left: 30px;
-    margin-top: 30px;
   }
 }
 
@@ -19,23 +28,16 @@
   .promo-example {
     width: 570px;
     height: 372px;
-    margin-left: 40px;
-    margin-right: 40px;
   }
-}
-
-.promo-example__picture {
-  position: absolute;
-  padding-left: 15px;
-  padding-top: 25px;
 }
 
 .promo-example__name {
   font-family: "Oswald Regular", sans-serif;
   font-size: 24px;
-  text-align: center;
-  padding-top: 20px;
+  padding-left: 95px;
+  line-height: 45px;
   text-transform: uppercase;
+  position: relative;
 }
 
 @media (min-width: @tablet-width) {
@@ -122,4 +124,18 @@
   .promo-example hr {
     visibility: hidden;
   }
+}
+
+.promo-example__picture--slim {
+  position: absolute;
+  height: 45px;
+  left: 40px;
+  top: 20px;
+}
+
+.promo-example__picture--pro {
+  position: absolute;
+  width: 65px;
+  left: 20px;
+  top: 30px;
 }

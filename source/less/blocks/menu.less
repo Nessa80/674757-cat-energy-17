@@ -1,3 +1,36 @@
+.menu {
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+
+.menu__menu-item {
+  font-family: "Oswald Medium", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+
 @media (min-width: @tablet-width) {
   .menu {
     list-style: none;

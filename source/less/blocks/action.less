@@ -1,0 +1,51 @@
+.action {
+  background-image: url(../../img/gift-photo-mobile@1x.jpg);
+  width: 280px;
+  height: 290px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: @tablet-width) {
+  .action {
+    background-image: none;
+    background-color: #68b738;
+    width: 708px;
+    height: 200px;
+  }
+}
+
+.action__offer {
+  position: relative;
+  padding-top: 190px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+@media (min-width: @tablet-width) {
+  .action__offer {
+    padding-top: 80px;
+    padding-left: 400px;
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+.action__offer::before {
+  content: '';
+  position: absolute;
+  background-image: url(../../img/icon-gift.svg);
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 80px;
+  left:110px;
+  bottom: 90px;
+}
+
+@media (min-width: @tablet-width) {
+  .action__offer::before {
+    left: 120px;
+    top: 70px;
+  }
+}
+
